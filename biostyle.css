@@ -1,0 +1,82 @@
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+    background-color: #A9a9a9;
+	height: 100%;
+	margin: 0;
+	font-family: Times New Roman;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.background {
+  height: 50vh;
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px auto 20px;
+    display: block;
+}
+
+
+/*Game Images & name */
+#cod {
+  background-image: url('COD.jpg');
+}
+
+#fallout {
+  background-image: url('fallout.jpg');
+}
+
+#BR {
+  background-image: url('BR.jpg');
+}
+
+#RDR2 {
+  background-image: url('rdr2.jpg');
+}
+
+#gta {
+  background-image: url('gta.jpg');
+
+}
+
+
+/* Profile */
+div.pic{
+	display: inline-block;
+	vertical-align: top;
+	
+}
+
+div.profileinfo{
+	display: inline-block;
+}
+
+/* drop down design */
+
+.dropdown-menu {
+    background-color: Grey;
+    color: Grey;
+    cursor: pointer;
+}
+.dropdown-menu:hover {
+    background-color: Grey;
+    }
+
+.dropdown-item {
+    background-color: Grey;
+}
+.dropdown-item a {
+    color: Grey;
+ 
+
+
+</style>

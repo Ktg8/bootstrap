@@ -1,50 +1,29 @@
 <!DOCTYPE html>
 
-<style>
-div.gameslist{
-	text-align: left;
-}
 
-ol.MyList{
-	display: inline-block;
-	text-align: left;
-}
 
-div.profile{
-	display: inline-block;
-	vertical-align: top;
-	
-}
-
-div.profileinfo{
-	display: inline-block;
-}
-
-pre	{
-    font-family: Times New Roman;
-}
-
-body {
-    background-color: #A9a9a9;
-}
-</style>
-</style>
 <html>
 	<head>
+	<link 
+		href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" 
+		rel="stylesheet" 
+		integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" 
+		crossorigin="anonymous">
+
+	<link rel = "stylesheet" type = "text/css" href="biostyle.css">
 		<title> About me </title>
 	</head>
 	
 	
 	<body>
 		
-		<div class = "profile">
-		<img src = "R.jpg" alt = "Can't shoot" width = "200" height = "200">
+		<div class = "pic">
+		<p><img src = "R.jpg" alt = "Can't shoot" width = "200" height = "200"><p>
 		</div>
 		<div class = "profileinfo">
 		<h1> Stormtrooper </h1>
 		<p> Somewhere in space probably &#128640; </p>
 		<p> Contact me 911****** </p>
-		<a href = "#bottom"> Head to bottom </a>
 		</div>
 		
 		<hr>
@@ -54,30 +33,39 @@ body {
 	<p> Bachelor of Science in Information Technology (2019 - Present)</p>
 	<p> De La Salle University </p>
 	<p> Taft Avenue, Malate Manila, Philippines </p>
-	<pre>
-	Hobby: Playing Games	
-	Favorite Games:
+
+	<hr>
+	
+	
+	Hobby: Playing Games
+	</br>	
+	
+	<div class="dropdown">
+	<button class="btn btn-secondary" type="button" data-bs-toggle="dropdown">Favorite Game</button>
+	<ul class="dropdown-menu">
+		<li><a class="dropdown-item" href="#cod"> Call of Duty </a></li>
+		<li><a class="dropdown-item" href="#fallout"> Fallout New Vegas</a></li>
+		<li><a class="dropdown-item" href="#BR"> Battle Realms</a></li>
+		<li><a class="dropdown-item" href="#RDR2"> Red Dead Redemption 2</a></li>
+		<li><a class="dropdown-item" href="#gta"> Grand Theft Auto San Andreas</a></li>
+	</ul>
+	</div>
+		
 	<div class = "gameslist">
-		<ol class = "MyList">
-		<li> Call of Duty </li>
-			<img src ="COD.jpg" height ="400" width = "800">
-		<li> Fallout New Vegas</li>
-			<img src ="fallout.jpg" height = "400" width = "800">
-		<li> Battle Realms </li>
-			<img src ="BR.jpg" height == "400" width = "800">
-		<li> Red Dead RedeMption 2</li>
-			<img src ="rdr2.jpg" height = "400" width = "800">
-		<li> Grand Theft Auto San Adnreas </li>
-			<img src ="gta.jpg" height = "400" width = "800">
-		</ol>
-		<ol type  = "1">
-			</div>
-		</div>
-		<footer id = "bottom">
-		<img src = "spongebob.jpg" height = "400" width = "800" >
-		<br>
-		You reach Rock Bottom
-		</footer>
-		</pre>
+		<div class = "background" id = "cod"></div>
+		<div class = "background" id = "fallout"></div>
+		<div class = "background" id = "BR"></div>
+		<div class = "background" id = "RDR2"></div>
+		<div class = "background" id = "gta"></div>
+	
+
+	</div>
+</div>
+		<script 
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" 
+			crossorigin="anonymous">
+		</script>
+
 	<body>
 </html>
